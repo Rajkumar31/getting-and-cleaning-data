@@ -11,12 +11,19 @@ Create one R script called run_analysis.R that does the following:
 ## Variables
 
 activity_labels - Loads the activity labels dataset into it
+
 features - Contains all the features of the dataset
+
 extract_features - Extract only the measurements on the mean and standard deviation for each measurement
+
 x-test, y-test - Load and process Xtest & ytest data
+
 test_data - Data that is binded and ready to be used as a test set
+
 x-train, y-train - Load and process Xtrain & ytrain data
+
 train_data - Data that is binded and ready to be used as a test 
+
 data - Row binded data of both test and train data set
 
 ## Functions

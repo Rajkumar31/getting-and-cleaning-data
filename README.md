@@ -28,6 +28,8 @@ data - Row binded data of both test and train data set
 
 ## Functions
 
-Melt
+## Melt
 The melt function takes data in wide format and stacks a set of columns into a single column of data. To make use of the function we need to specify a data frame, the id variables (which will be left at their settings) and the measured variables (columns of data) to be stacked. The default assumption on measured variables is that it is all columns that are not specified as id variables.
 
+## Dcast
+dcast uses a formula to describe the shape of the data. The arguments on the left refer to the ID variables and the arguments on the right refer to the measured variables. 
